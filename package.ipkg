@@ -1,0 +1,9 @@
+package readelf
+authors = "alexca14@ntd.nintendo.com"
+main = CompareSizes
+executable = CompareSizes
+modules = CompareSizes,
+          ReadElf
+depends = contrib,
+          hex,
+          interlude
